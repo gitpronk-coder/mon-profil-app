@@ -1,23 +1,18 @@
-# .gitignore for PHP and development patterns
-
-# Composer
-/vendor/
-
-# IDE
-/.idea/
-/.vscode/
+# PHP
+*.php~
+*.phps
+*.php.swp
+*.phtml
 
 # Logs
 *.log
 
-# OS files
+# Composer
+/vendor/
+composer.lock
+
+# IDE
+.idea/
+*.sublime-project
+*.sublime-workspace
 .DS_Store
-Thumbs.db
-
-# PHP
-*.php~
-*.phar
-
-# NPM
-node_modules/
-package-lock.json
