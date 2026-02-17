@@ -1,1 +1,7 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Portfolio</title>\n</head>\n<body>\n    <h1>Welcome to My Portfolio</h1>\n    <p>This is the main entry point for my portfolio application.</p>\n</body>\n</html>
+<?php
+
+// Display current date and time in UTC
+
+echo 'Current Date and Time (UTC): ' . date('Y-m-d H:i:s');
+
+?>
