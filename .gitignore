@@ -1,0 +1,23 @@
+# .gitignore for PHP and development patterns
+
+# Composer
+/vendor/
+
+# IDE
+/.idea/
+/.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PHP
+*.php~
+*.phar
+
+# NPM
+node_modules/
+package-lock.json
