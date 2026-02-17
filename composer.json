@@ -1,1 +1,1 @@
-{"require": {}}
+{ "name": "mon-profil-app", "version": "1.0.0", "description": "Professional Portfolio with PHP API", "scripts": { "start": "php -S 0.0.0.0:${PORT:-8000}" }, "engines": { "php": "7.4" } }
